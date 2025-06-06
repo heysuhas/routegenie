@@ -47,7 +47,7 @@ yarn dev
 ```
 Visit [http://localhost:5173](http://localhost:5173) in your browser.
 
-[!NOTE]
+> [!NOTE]
 > The app uses environment variables for API keys. Copy `.env.example` to `.env` and fill in your values if needed.
 
 ---
