@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: 'Urbanist', 'Inter', sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+body {
+  @apply bg-secondary-900 text-white transition-colors duration-300;
+}
+
+dark body {
+  @apply bg-secondary-900 text-white;
+}
